@@ -14,7 +14,7 @@ String topText = "TEMPORARY TEXT";
 String bottomText = "SOME MORE TEMPORARY TEXT FOR YA";
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600); // lower baud rate, can set higher if you want to send more bytes
   lcd.begin(16, 2);
   lcd.clear();
   lcd.setCursor(0, 0);
