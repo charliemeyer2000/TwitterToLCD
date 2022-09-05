@@ -3,7 +3,7 @@ import time
 import os
 import tweepy
 import time
-import numpy as np
+
 
 
 #Beginning serial communication
@@ -13,10 +13,10 @@ ser.flush()
     
      
 # Authentication credentials for tweepy
-consumer_key = "yjDamjWijnHPNn08DuvVoUE3i"
-consumer_key_secret = "uIugP7QUK9PAZtt0P7tkboVXH8ePreZuAHEZePmDcYOG8kclp8"
-access_token = "1097267186522046464-lygM6UATwQ3HMCpzim1ShcQouHrGab"
-access_token_secret = "f4GbjfXqtKTbSx29IYWQigIhcehtrhML8joyY25hBrwoh"
+consumer_key = #Redacted for privacy reasons
+consumer_key_secret = #Redacted for privacy reasons
+access_token = #Redacted for privacy reasons
+access_token_secret = #Redacted for privacy reasons
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret, access_token, access_token_secret)
 
@@ -25,10 +25,7 @@ api = tweepy.API(auth)
 
 
 
-# TODO: create a loop such that tweepy constantly is looking for new tweets that mentions me, gets their text and displays them on the arduino lcd. If no new tweets are coming in that mention me,
-# say "Waiting for new tweets that mention you...". Goes until program is stopped.
 
-# TODO Send to LCD: "Displaying most recent mention:"
 
 # Initializes the arrays that display the tweet concisely 
 lastMentionArr = ["temp"]
@@ -78,26 +75,3 @@ while True:
             lastMentionArr[0] = thisMentionArr[0]
             thisMentionArr[0] = " "
             
-            
-            
-        
-    
-    
-    
-        
-    
-        
-    
-    
-    
-    
-
-# 
-#     while True:
-#         s = "I Love You!!"
-#         
-#         ser.write(s.encode('utf-8'))
-#         line = ser.readline().decode('utf-8').rstrip()
-#         print(line)
-#         time.sleep(0.5)
-        
