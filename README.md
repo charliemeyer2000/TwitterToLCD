@@ -9,6 +9,6 @@ To run Tweepy (Twitter API for Python), you can either add a credentials.json fi
 
 ## Why Use a Pi and an Arduino?
 Because of the limited processing power of the Arduino Uno, I decided that this program would process the information on a Raspberry Pi, and then send the Twitter updates to the Arduino to display on its connected LCD. This is mostly because of the many API calls that the Pi makes, and it is much easier to interface with and use because of Raspbian. Plus, learning serial communication is cool - this video piqued my interest and was the source of this project. 
-<a href="https://www.youtube.com/watch?v=wdgULBpRoXk">Check out this YouTube Video!</a>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wdgULBpRoXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=wdgULBpRoXk">Ben Eater USB Protocol</a>
+
 
